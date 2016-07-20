@@ -1,5 +1,3 @@
-/* There's a schema "billing" */
-
 create table billing.plan_details(
 plan_de_no serial,
 price int,
@@ -60,8 +58,6 @@ clients.last_name, clients.address, clients.state, clients.city,
 invoices.paid$, invoices.credit_bal$, invoices.signup_date,
 invoices.due_date, orders.order_id from billing.plan_details INNER JOIN billing.plans ON billing.plan_details.plan_de_no = billing.plans.plan_details INNER JOIN billing.orders ON billing.orders.plan_no = billing.plans.plan_no INNER JOIN billing.invoices ON billing.orders.invoice_no = billing.invoices.invoice_no INNER JOIN billing.clients ON billing.orders.clients_no = billing.clients.clients_no;
 
-/* Below stuff is mine
-
 create view Balance (
 select plan_details.price, plan_details.billing_cycle,
 plan_details.status, plans.plan_name, clients.first_name,
@@ -69,4 +65,3 @@ clients.last_name, clients.address, clients.state, clients.city,
 invoices.paid$, invoices.credit_bal$, invoices.signup_date,
 invoices.due_date, orders.order_id from billing.plan_details INNER JOIN billing.plans ON billing.plan_details.plan_de_no = billing.plans.plan_details INNER JOIN billinbg.orders ON billing.orders.plan_no = billing.plans.plan_no INNER JOIN billing.invoices ON billing.orders.invoice_no = billing.invoices.invoice_no INNER JOIN billing.clients ON billing.orders.clients_no = billing.clients.clients_no
 );
-*/
