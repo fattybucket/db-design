@@ -19,7 +19,7 @@ Before we go ahead we need to learn the rules of its first and then we'll make a
 * By the way third normal form is optional so it's not a necessary we can make a good Design by the following those normalization process above :wink:
 
 ### What is a primary key?
-Primary key is supposed to use for unquie indentical purpose such as `Citizen identical numbers, Vehicle registration number` and stuff like that.
+Primary key is supposed to be use for unquie indentical purpose such as `Citizen identical numbers, Vehicle registration number` and stuff like that.
 
 #### What is a foreign key?
 Foreign key is that we use for referential purpose. For example we have created a test table with Primary key and Foreign key is supposed to be define in another table. It should be reference with that test table.
