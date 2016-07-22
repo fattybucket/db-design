@@ -82,8 +82,8 @@ Foreign key is that we use for referential purpose. For example we have created 
 </pre>
 
 ## Implementation
-```
 **Billing Database**
+```
 CREATE TABLE billing.plan_details(
 plan_de_no serial,
 price int,
