@@ -1,5 +1,5 @@
 # What is SQL?
-SQL stands for *Structured Query Language*. It doesn't store files that way but also we can manipulate the data in a table with the help of rows and columns.
+SQL stands for *Structured Query Language*. It doesn't have any capabilityt to store file. The **Idea** of sql had raised by E.F Codd. Anyway we can manipulate the data in a table with the help of rows and columns.
 
 It's just about the way how are you **_Designing a Database_** is it normalize or not if no then you should at least draw it on the paper where you could see the `Error`
 
