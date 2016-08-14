@@ -1,9 +1,11 @@
 # What is SQL?
-SQL stands for *Structured Query Language*. It doesn't have any capabilityt to store file. The **Idea** of sql had raised by E.F Codd. Anyway we can manipulate the data in a table with the help of rows and columns.
+SQL stands for Structured Query Language. **E.F Codd** who gave an Idea of SQL in his Research Paper the guy who read that research paper was *Larry Ellison* and he also had written a first `SQL Database Engine` with the help of his best pals.
 
-It's just about the way how are you **_Designing a Database_** is it normalize or not if no then you should at least draw it on the paper where you could see the `Error`
+Anyway we can manipulate the data in a table with the help of rows and columns.
 
-The Database we are going to designe is based on ***Billing Manager and Bank System***
+It's just about the way how are you **_Designing a Database_** is it normalize or not. If not then you should at least draw it on the paper where you could easily see the `Error`
+
+The Database we are going to design is based on ***Billing Manager and Bank System***
 
 Before we go ahead we need to learn the rules of its first and then we'll make a <a href="#recipe">recipe</a> :blush:
 
