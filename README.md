@@ -1,7 +1,7 @@
 # What is SQL?
-SQL stands for Structured Query Language. **E.F Codd** who gave an Idea of SQL in his Research Paper the guy who read that research paper was *Larry Ellison* and he also had written a first `SQL Database Engine` with the help of his best pals.
+SQL stands for Structured Query Language. **E.F Codd** who gave an Idea of SQL in his Research Paper. The guy who read that research paper was *Larry Ellison* and he also had written a first `SQL Database Engine` with the help of his best pals.
 
-Anyway we can manipulate the data in a table with the help of rows and columns.
+Anyway we can manipulate the data in a table through rows and columns.
 
 It's just about the way how are you **_Designing a Database_** is it normalize or not. If not then you should at least draw it on the paper where you could easily see the `Error`
 
@@ -21,7 +21,7 @@ Before we go ahead we need to learn the rules of its first and then we'll make a
 * By the way third normal form is optional so it's not a necessary we can make a good Design by the following those normalization process above :wink:
 
 ### What is a primary key?
-Primary key is supposed to be use for unquie indentical purpose such as `Citizen identical numbers, Vehicle registration number` and stuff like that.
+Primary key is supposed to be use for unquie indentical purpose such as `Citizen Identical Numbers, Passport Numbers, Vehicle Registration Numbers` and etc stuff like that.
 
 #### What is a foreign key?
 Foreign key is that we use for referential purpose. For example we have created a test table with Primary key and Foreign key is supposed to be define in another table. It should be reference with that test table.
