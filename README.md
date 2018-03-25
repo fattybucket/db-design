@@ -11,9 +11,9 @@ Before we go ahead we need to learn the rules of its first and then we'll make a
 
 ## Database normalization
 + First normal form
-  ###Every row must be uniquely identified.
-  ####No other column should contain same type of information.
-  #####Every column cell should contain one value.
+  ### Every row must be uniquely identified.
+  #### No other column should contain same type of information.
+  ##### Every column cell should contain one value.
   
 + Second normal form
 ##### No other rows should have same values.
