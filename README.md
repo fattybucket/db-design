@@ -11,12 +11,12 @@ Before we go ahead we need to learn the rules of its first and then we'll make a
 
 ## Database normalization
 + First normal form
-  ###Every row must be uniquely identified.
-  ####No other column should contain same type of information.
-  #####Every column cell should contain one value.
+  1. Every row must be uniquely identified.
+  2. No other column should contain same type of information.
+  3. Every column cell should contain only one value at a time.
   
 + Second normal form
-##### No other rows should have same values.
+  1. No other rows should have same values.
 
 * By the way third normal form is optional so it's not a necessary we can make a good Design by the following those normalization process above :wink:
 
