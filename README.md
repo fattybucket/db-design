@@ -1,8 +1,4 @@
-The Database we are going to design is based on ***Billing Manager and Bank System***
-
-Before we go ahead we need to learn about the rules and then we'll make a <a href="#recipe">design</a>
-
-## Database Normalization Process
+# Database Normalization Process
  
  Normalization Steps: 
   + Every row must be uniquely identified.
@@ -10,15 +6,14 @@ Before we go ahead we need to learn about the rules and then we'll make a <a hre
   + Every column cell should contain one value.
   + No other rows should have same values.
   
-### What is a primary key?
+## What is a primary key?
 Primary key is supposed to be use for unquie indentical purpose such as `Citizen Identical Numbers, Passport Numbers, Vehicle Registration Numbers` and etc stuff like that.
 
-#### What is a foreign key?
+### What is a foreign key?
 Foreign key is that we use for referential purpose. For example we have created a test table with Primary key and Foreign key is supposed to be define in another table. It should be reference with that test table.
 
-<h2 id="recipe">Design</h2>
 <pre>
-<h4>Billing Database</h4>
+<h1>Billing Database</h1>
                           +-------------------+
                           |   plan_details    |
                           +-------------------+
@@ -54,7 +49,7 @@ Foreign key is that we use for referential purpose. For example we have created 
                                                      |                         |
                                                      |                         |
                                                      +-------------------------+
-<h5>Bank Database</h5>						     
+<h2>Bank Database</h2>						     
 +-----------------+
 |   clients       |      +------------------+
 +-+---------------+      |   acctinfo       |
